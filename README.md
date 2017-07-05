@@ -79,7 +79,7 @@ You can also publish using both formats to github manually using gh-pages, thoug
 ## Published Application
 
 My completed application is published on www.shinyapps.io at the following URL:
-[https://koolwebdezign.shinyapps.io/shiny-slider-example/](https://koolwebdezign.shinyapps.io/shiny-slider-example/)
+[https://koolwebdezign.shinyapps.io/shiny-slider-app/](https://koolwebdezign.shinyapps.io/shiny-slider-app/)
 
 ## References
 
