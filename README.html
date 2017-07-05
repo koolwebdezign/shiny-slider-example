@@ -119,11 +119,83 @@ $(document).ready(function () {
 </div>
 
 
-<div id="an-application-of-the-shiny-package-in-r-w-manipulate" class="section level1">
-<h1>An Application of the Shiny Package in R (w/ Manipulate)</h1>
+<div id="an-application-of-the-shiny-package-in-r" class="section level1">
+<h1>An Application of the Shiny Package in R</h1>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
-<p>This is a another basic application of the R ‘Shiny’ package. My example here is drawn from the <em>Developing Data Products in R</em> book, written by Brian Caffo and published on LeanPub. Brian Caffo is the professor of the Developing Data Products course, taught on behalf of Johns Hopkins Univerisity, on Coursera.org.</p>
+<p>This is an application of the R ‘Shiny’ package. My example here is drawn from the <em>Developing Data Products in R</em> book, written by Brian Caffo and published on LeanPub. Brian Caffo is the professor of the Developing Data Products course, taught on behalf of Johns Hopkins Univerisity, on Coursera.org. I have taken the exercise that was introduced to us within our class, and I changed it to a new application which allows a user to visualize normal distributions that can be dynamically generated from user-input.</p>
+<p>This project represents my final assignment within the <em>Developing Data Products</em> course, which is the 9th of ten courses which comprise the <em>Data Science Specialization</em> offered by Johns Hopkins University.</p>
+</div>
+<div id="assignment" class="section level2">
+<h2>Assignment</h2>
+<p>This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio’s servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.</p>
+<div id="your-shiny-application" class="section level3">
+<h3>Your Shiny Application</h3>
+<ol style="list-style-type: decimal">
+<li>Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.</li>
+<li>Deploy the application on Rstudio’s shiny server</li>
+<li>Share the application link by pasting it into the provided text box</li>
+<li>Share your server.R and ui.R code on github</li>
+</ol>
+<p>The application must include the following:</p>
+<ol style="list-style-type: decimal">
+<li>Some form of input (widget: textbox, radio button, checkbox, …)</li>
+<li>Some operation on the ui input in sever.R</li>
+<li>Some reactive output displayed as a result of server calculations</li>
+<li>You must also include enough documentation so that a novice user could use your application.</li>
+<li>The documentation should be at the Shiny website itself. Do not post to an external link.</li>
+</ol>
+<p>The Shiny application in question is entirely up to you. However, if you’re having trouble coming up with ideas, you could start from the simple prediction algorithm done in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end user, so that they don’t need a lot of your prerequisite knowledge to evaluate your application. You should emphasize a simple project given the short time frame.</p>
+</div>
+<div id="your-reproducible-pitch-presentation" class="section level3">
+<h3>Your Reproducible Pitch Presentation</h3>
+<p>OK, you’ve made your shiny app, now it’s time to make your pitch. You get 5 slides (inclusive of the title slide) to pitch a your app. You’re going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.</p>
+<p>Here’s what you need:</p>
+<ol style="list-style-type: decimal">
+<li>5 slides to pitch our idea done in Slidify or Rstudio Presenter</li>
+<li>Your presentation pushed to github or Rpubs</li>
+<li>A link to your github or Rpubs presentation pasted into the provided text box</li>
+</ol>
+<p>Your presentation must satisfy the following:</p>
+<ol style="list-style-type: decimal">
+<li>It must be done in Slidify or Rstudio Presenter</li>
+<li>It must be 5 pages</li>
+<li>It must be hosted on github or Rpubs</li>
+<li>It must contained some embedded R code that gets run when slidifying the document</li>
+</ol>
+<p>NOTE: Slidify is no longer compatible with with Rpubs. If you choose to use Slidify you must share your presentation using GitHub Pages.</p>
+<p>Notice to publish your slidify presentation to github or Rpubs, there’s the publish command. This link outlines how to do it (it’s one line).</p>
+<p><a href="http://slidify.org/publish.html"><a href="http://slidify.org/publish.html" class="uri">http://slidify.org/publish.html</a></a></p>
+<p>Rstudio presenter has a button to publish directly to Rpubs <a href="https://support.rstudio.com/hc/en-us/articles/200714023-Displaying-and-Distributing-Presentations"><a href="https://support.rstudio.com/hc/en-us/articles/200714023-Displaying-and-Distributing-Presentations" class="uri">https://support.rstudio.com/hc/en-us/articles/200714023-Displaying-and-Distributing-Presentations</a></a>. If you are using Rpubs, put in the link to the presentation into the submission box as a <a href="http://" class="uri">http://</a> link not a <a href="https://" class="uri">https://</a> link.</p>
+<p>You can also publish using both formats to github manually using gh-pages, though your github branch must have a .nojekyll fle and be on a branch names gh-pages. There’s more on gh-pages here <a href="https://pages.github.com/"><a href="https://pages.github.com/" class="uri">https://pages.github.com/</a></a> and there is a video lecture outlining how to do this.</p>
+</div>
+<div id="review-criteria" class="section level3">
+<h3>Review criteria</h3>
+<div id="your-shiny-application-1" class="section level4">
+<h4>Your Shiny Application</h4>
+<ul>
+<li>Was there enough documentation on the shiny site for a user to get started using the application?</li>
+<li>Did the application run as described in the documentation?</li>
+<li>Was there some form of widget input (slider, textbox, radio buttons, checkbox, …) in either ui.R or a custom web page?</li>
+<li>Did server.R perform some calculations on the input in server.R?</li>
+<li>Was the server calculation displayed in the html page?</li>
+<li>Was the app substantively different than the very simple applications built in the class? Note, it’s OK if the app is simple and based on the one presented in class. I just don’t want it to be basically a carbon copy of the examples we covered. For example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine.</li>
+<li>Here’s your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.</li>
+</ul>
+</div>
+<div id="your-reproducible-pitch" class="section level4">
+<h4>Your Reproducible Pitch</h4>
+<ul>
+<li>Was the presentation completed in slidify or R Presenter?</li>
+<li>Was it 5 pages?</li>
+<li>Did it contain an R expression that got evaluated and displayed?</li>
+<li>Was it hosted on github or Rpubs?</li>
+<li>Was the server calculation displayed in the html page?</li>
+<li>Here’s your opportunity to give this presentation a +1 for being well done. Did they tinker around with the default style? Was the presentation particularly lucid and well organized? In other words, the student made a legitimate try.</li>
+<li>There were no R errors displayed in the presentation.</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="published-application" class="section level2">
 <h2>Published Application</h2>
