@@ -81,6 +81,9 @@ You can also publish using both formats to github manually using gh-pages, thoug
 My completed application is published on www.shinyapps.io at the following URL:
 [https://koolwebdezign.shinyapps.io/shiny-slider-app/](https://koolwebdezign.shinyapps.io/shiny-slider-app/)
 
+My completed Slidify presentation is published on GitHub.com at the following URL:
+[https://koolwebdezign.github.io/slidify/my-shiny-app/index.html#1](https://koolwebdezign.github.io/slidify/my-shiny-app/index.html#1)
+
 ## References
 
 1. Caffo, Brian. (November 9, 2015). *Developing Data Products in R*. leanpub.com: Lean Publishing.
